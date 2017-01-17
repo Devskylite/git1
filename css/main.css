@@ -1,0 +1,165 @@
+
+/*Add media min/max and viewport*/
+/*problem with width @ viewport images > 768 and <1200*/
+/*Add pnav color:hover; change pnav Khmer Interpreter to khmer writing*/
+/*Add link to Culture Shock...add color:hover;*/
+/*Add specific media querie on Culture Shock font-size when in phone viewport*/
+/*put input search with header not nav...fix when viewport changes*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+/* Mobile Phones */
+[class*="col-"] {
+	width= 100%;
+}
+
+/* @media only screen and (orientation: landscape) {
+	body {
+		background-color: lightblue;
+	}
+}
+Portrait/Landscape */
+
+/* Tablets*/
+@media only screen and (min-width: 600px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+@media only screen and(min-width: 768px) {
+/* Desktop */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+/*cambodianConverter begins*/
+
+article {
+	margin: 1%;
+}
+
+.button {
+	background-color: #555;
+	border: solid;
+	border-color: white;
+	color: white;
+	cursor: pointer;
+	float: right;
+	padding: 5%;
+	transition-duration: 0.5s;
+}
+
+.button:hover {
+	background-color: black;
+	border-color: white;
+	color: crimson;
+	font-size: 100%;
+	padding: 10%;
+}
+
+.city {
+	float: right;
+}
+
+/*search bar*/
+.col-xs-5 {
+	margin-top: 2%;
+	margin-right: 3%;
+}
+
+#copyright:hover {
+	color: crimson;
+}
+
+footer {
+	clear: both;
+}
+
+.glyphicon {
+	color: black;
+	font-size: 150%;
+	padding-top: 9%;
+}
+
+.glyphicon:hover {
+	color: white;
+	cursor: pointer;
+	font-size: 170%;
+	transition-duration: 1s;
+}
+
+header {
+	color: white;
+	background-color: #111;
+	border-style: solid;
+	border-color: #999;
+	font-family: tahoma;
+	font-variant: small-caps;
+	padding-top: 1%;
+	padding-left: 1.5%;
+}
+
+input {
+	color: #111!important;
+	float: left;
+}
+
+@media only screen and (max-width: 608px) {
+	h2 {
+		display: none;
+	}
+}
+
+#map {
+ 	float: right;
+}
+
+nav {
+	border-style: solid!important;
+	border-color: #999!important;
+	padding: 0.7%;
+}
+
+nav .row {
+	margin-right: -7%;
+	margin-left: -6%;
+}
+
+p {
+	color:#	999;
+	font-family: Arial;
+	font-size: 100%;
+}
+
+.panel .showOnHover {
+	margin: 20%;
+}
+
+.pnav {
+	color: white;
+	font-size: 170%;
+	margin-top: 5%;
+}
